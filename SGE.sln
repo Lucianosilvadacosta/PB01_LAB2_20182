@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UI", "1-UI", "{23AD7EB3-C5F1-4479-8247-E1089A274AFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{07F8BC89-1B38-41DB-985A-119BCE5CDE3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infrastructure", "3-Infrastructure", "{3D70FEA6-376C-482C-BB5C-6DEFCAD1501B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE.ApplicationCore", "src\SGE.ApplicationCore\SGE.ApplicationCore.csproj", "{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE-Infrastructure", "src\SGE-Infrastructure\SGE-Infrastructure.csproj", "{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD6C8F5C-8DB4-477D-8827-A34C1B2678F9} = {07F8BC89-1B38-41DB-985A-119BCE5CDE3C}
+		{FF11AF9F-B629-499A-BBF6-A3F3831FC5B7} = {3D70FEA6-376C-482C-BB5C-6DEFCAD1501B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB1A11D7-B8B3-40D2-9748-C75CE4B48B3E}
+	EndGlobalSection
+EndGlobal
